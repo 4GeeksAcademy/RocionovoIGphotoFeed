@@ -1,0 +1,50 @@
+body {
+    background: black;
+}
+
+.post{
+    background: white;
+    display: flex;
+    flex-flow: column;
+    width: 400px;
+    border-radius:5px ;
+    border:1px gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 8;
+}
+.contenido{
+   display:flex;
+  align-items:center;
+  justify-content:flex-start;
+}
+.contenido i {
+    font-size: xx-large;
+}
+.user{
+    display:flex;
+    flex-flow: column;
+}
+.image{
+    height:300px;
+    width: 400px;
+      
+}
+.iconos{
+    display:flex;
+    justify-content:space-between;
+    gap: 0.5em;
+    padding: 0.5em;
+}
+.marcador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body p{
+    padding:0 8;
+}
